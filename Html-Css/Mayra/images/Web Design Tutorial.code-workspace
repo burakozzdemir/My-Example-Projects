@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Himalaya Web Design"
+		},
+		{
+			"path": "..\\..\\Finder Web Design"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Finder Web Design"
+	}
+}
