@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;  
+    position: relative;
+}
+i {
+    font-size: 60px;
+    color: #F0A500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+i:hover{
+    color: #fff;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px 0;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 70px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.4s;
+    word-spacing: 42px;
+    font-size: 1em;
+}
+nav ul li a:hover{
+    color: #111;
+}
+.line{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    width: 5px;
+    background-color: #C3B091;
+    opacity: 0.8;
+}
+.text-box{
+    position: absolute;
+    text-align: center;
+    bottom: 52%;
+    left: 28%;
+}
+.text-box h1{
+    font-size: 60px;
+    color: #313552;
+    font-weight: 600;
+    transition: 0.8s;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    animation: slideup 1s linear forwards;
+}
+ @keyframes slideup{
+   0%{
+       transform: translateY(-100px);
+       opacity: 0;
+   }
+   100%{
+       transform: translateY(0px);
+       opacity: 1;
+   }
+} 
+.text-box h1:hover{
+        color: #F0A500;
+}
+.btn{
+    border: 1px solid #334756;
+    font-size: 1em;
+    margin-top: 25px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    background-color: #334756;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s;
+    color: #fff;
+    position: absolute;
+    left: 36%;
+    top: 80%;
+    cursor: pointer;
+    animation: slideup 1s linear forwards;
+}
+@keyframes slideup{
+        0%{
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+     } 
+.btn:hover{
+    background-color: #111;
+    transform: scale(1.00) translateY(-12px);
+}
+.cart{
+    width: 35px;
+    cursor: pointer;
+}
+.social-media {
+    position: absolute;
+    bottom: 8%;
+    left: 9.5%;
+}
+.social-media img{
+    width: 60px;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.social-media img:hover
+{
+  transform: scale(0.9) translateY(-12px);
+}
+.section-one{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    text-align: center;
+}
+.section-one h5{
+    font-size: 25px;
+    color: grey;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 15px;
+    cursor:pointer
+}
+.section-one h1{
+    font-size: 55px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 35px;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+}
+.section-one p{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.section-one button{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px;
+    padding: 28px 85px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: center;  
+    cursor: pointer;
+}
+.section-one button:hover{
+   background: #fff;
+   color: #111;
+
+}
+.furniture{
+    padding: 0 14%;
+    transform: scale(0.95);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.furniture:hover{
+  transform: scale(1.00) translateY(-12px);
+}
+#p{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #313552;
+}
+.section-one .btn-two{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px;
+    padding: 28px 85px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: center;  
+    cursor: pointer;
+}
+.section-one button:hover{
+    background: #fff;
+    color: #111; 
+}
+footer{
+    width: 100%;
+    font-size: 20px;
+    color: #111;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+
+
+
+/* .slide-up{
+   animation: slideup 1s linear forwards;
+}
+@keyframes slideup{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+}
+@keyframes slideup{
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+} */
