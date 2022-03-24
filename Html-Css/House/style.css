@@ -195,7 +195,7 @@ nav ul li a:hover{
     font-size: 25px;
     color: #111;
 }
-.section-one .btn-two{
+ .btn-two{
     border: 5px solid black;
     background-color: #111;
     color: #fff;
@@ -209,20 +209,11 @@ nav ul li a:hover{
     float: center;  
     cursor: pointer;
 }
-.section-one button:hover{
+.btn-two:hover{
     background: #fff;
     color: #111; 
 }
-footer{
-    width: 100%;
-    font-size: 20px;
-    color: #111;
-    display: flex;
-    align-items: center;
-    margin: 30px;
-
 /* --------------------Section 2---------------------- */
-}
  .section-two{
     width: 105%;
     height: 60%;
@@ -310,6 +301,40 @@ footer{
     margin-top: 50px;
     margin-bottom: -50px;
 }
+#case{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px;
+    padding: 20px 75px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#case:hover{
+   background: #fff;
+   color: #111;
+}
+.case-one{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px;
+    padding: 20px 75px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.case-one:hover{
+   background: #fff;
+   color: #111;
+}
 .btn-three{
     position: absolute;
     right: 40%;
@@ -325,3 +350,56 @@ footer{
 .row h3:hover{
     color: #F0A500;
 }
+
+/* --------------------Section 3---------------------- */
+.section-three{
+    margin-top: 75px;
+}
+.card-five img{
+    height: 666px;
+}
+.card-six{
+    background: #F8F8F8;
+}
+.card-six h6{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+}
+.section-four{
+    height: 75%;
+    margin-top: 75px;
+}
+.form-control{
+    background: #F8F8F8;
+}
+.card-eight{
+    background-color: #F8F8F8;
+}
+.card-eight label{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    align-items: flex-start;
+}
+.card-seven img{
+    height: 666px;
+}
+#name{
+    height: 50px;
+}
+#email{
+    height: 50px;
+}
+#message{
+    height: 150px;
+}
+.footer{
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    color: #111;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    font-weight: 600;
