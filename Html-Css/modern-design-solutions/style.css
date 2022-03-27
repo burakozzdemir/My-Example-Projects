@@ -1,0 +1,415 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;  
+    position: relative;
+}
+i{
+    font-size: 65px;
+    color: #F0A500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+i:hover{
+   color: #fff;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px 0;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 60px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.4s;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.line{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    width: 5px;
+    background-color: #C3B091;
+    opacity: 0.8;
+}
+.text-box{
+    position: absolute;
+    text-align: center;
+    bottom: 52%;
+    left: 26.5%;
+}
+.text-box h1{
+    font-family: 'Cardo', serif;
+    font-size: 55px;
+    color: #313552;
+    font-weight: 600;
+    transition: 0.8s;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    right: -0.8%;
+}
+.text-box h1:hover{
+    color: #ffffff;
+    transform: scale(1.00) translateY(-15px);
+}
+.btn{ 
+    border: 1px solid #334756;
+    font-size: 1em;
+    margin-top: 25px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    background-color: #334756;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s;
+    color: #fff;
+    position: absolute;
+    left: 36%;
+    top: 80%;
+    cursor: pointer;
+}
+.btn:hover{
+    background: black;
+    color: #fff;
+    transform: scale(1.00) translateY(12px);
+}
+.cart{
+    width: 35px;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+.social-media {
+    position: absolute;
+    bottom: 8%;
+    left: 9.5%;
+}
+.social-media img{
+    width: 60px;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.social-media img:hover
+{
+  transform: scale(0.9) translateY(-12px);
+}
+
+/* ------------------ Section------------------ */
+
+.section-one{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    text-align: center;
+    cursor: pointer;
+}
+.section-one h5{
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+    color: grey;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 15px;
+    cursor:pointer
+}
+.section-one h1{
+    font-family: 'Cardo', serif;
+    font-size: 55px;
+    font-family: C;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 35px;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+}
+.section-one p{
+    font-family: 'Cardo', serif;
+    letter-spacing: 0px;
+    font-size: 25px;
+}
+.section-one button{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px;
+    padding: 20px 75px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: center;  
+    cursor: pointer;
+}
+.section-one button:hover{
+   background: #fff;
+   color: #111;
+}
+.furniture{
+    padding: 0 10%;
+    transform: scale(0.98);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.furniture:hover{
+  transform: scale(1.00) translateY(-12px);
+}
+#p{
+    letter-spacing: 1px;
+    margin-top: 5%;
+    font-size: 25px;
+    color: #111;
+}
+ .btn-two{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px;
+    padding: 20px 75px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: center;  
+    cursor: pointer;
+}
+.btn-two:hover{
+    background: #fff;
+    color: #111; 
+}
+/* --------------------Section 2---------------------- */
+ .section-two{
+    width: 105%;
+    height: 60%;
+} 
+.section-two h6{
+    padding: 0 75px 20px 0;
+    font-weight: 600;
+    font-family: 'Cardo', serif;
+}
+.section-two h1{
+   text-shadow: 200px #111;
+   padding: 0 75px 15px 0;
+   font-weight: 500;
+   font-family: 'Cardo', serif;
+}
+.card-one{
+    width: 60%;
+}
+.card-one img{
+    width: 70%;
+}
+.card-one h3{
+    margin-top: 59px;
+    font-weight: 600;
+}
+.card-one p{
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.card-two{
+    width: 60%;
+}
+.card-two img{
+    width: 70%;
+    margin-top: 12px;
+}
+.card-two h3{
+    margin-top: 60px;
+    padding-bottom: 20px ;
+    font-weight: 600;
+}
+.card-two p{
+    font-size: 20px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card-three{
+    width: 60%;
+}
+.card-three img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.card-three h3{
+    margin-top: 38px;
+    font-weight: 600;
+}
+.card-three p{
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 20px;
+    letter-spacing: 0px; 
+    margin-top: 50px;
+}
+.card-four{
+    width: 60%;
+}
+.card-four img{
+    width: 77%;
+    margin-bottom: 12px; 
+}
+.card-four h3{
+    margin-top: 44px;
+    font-weight: 600;
+}
+.card-four p{
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+#case{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px;
+    padding: 20px 75px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#case:hover{
+   background: #fff;
+   color: #111;
+}
+.case-one{
+    border: 5px solid black;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin: 45px 50;
+    padding: 20px 75px;
+    transition: 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.case-one:hover{
+   background: #fff;
+   color: #111;
+}
+.btn-three{
+    position: absolute;
+    right: 40%;
+    bottom: -130px;
+}
+.row p{
+    font-size: 120%;
+    color: gray;
+}
+.row h3{
+    transition: 0.5s;
+}
+.row h3:hover{
+    color: #F0A500;
+}
+
+/* --------------------Section 3---------------------- */
+.section-three{
+    margin-top: 75px;
+}
+.card-five img{
+    height: 666px;
+}
+.card-six{
+    background: #F8F8F8;
+}
+.card-six h6{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+}
+.section-four{
+    height: 75%;
+    margin-top: 75px;
+}
+.form-control{
+    background: #fff;
+}
+.card-eight{
+    background-color: #F8F8F8;
+}
+.card-eight label{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    align-items: flex-start;
+}
+.card-seven img{
+    height: 666px;
+}
+#name{
+    height: 50px;
+}
+#email{
+    height: 50px;
+}
+#message{
+    height: 150px;
+}
+.footer{
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    color: #111;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    font-weight: 600;
+}
+.social-links img{
+    height: 33px;
+    margin: 20px;
+    cursor: pointer;
+}
+span{
+    font-family: 'Cardo' , serif;
+    font-size: 20px;
+}
