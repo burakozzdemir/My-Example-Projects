@@ -1,43 +1,50 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.header{
+
+.header {
     width: 100%;
     height: 100vh;
     background-image: url(./images/background.jpeg);
     background-size: cover;
     background-position: center;
-    padding: 0 8%;  
+    padding: 0 8%;
     position: relative;
 }
-i{
+
+i {
     font-size: 65px;
     color: #F0A500;
     transition: 0.5s;
     cursor: pointer;
 }
-i:hover{
-   color: #fff;
+
+i:hover {
+    color: #fff;
 }
-nav{
+
+nav {
     display: flex;
     width: 100%;
     align-items: center;
     padding: 5px 0;
 }
-nav ul{
+
+nav ul {
     flex: 1;
     text-align: right;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     display: inline-block;
-    margin: 60px 25px;
+    margin: 50px 15px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
@@ -46,10 +53,12 @@ nav ul li a{
     letter-spacing: 1px;
     font-size: 1rem;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: orange;
 }
-.line{
+
+.line {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -58,13 +67,15 @@ nav ul li a:hover{
     background-color: #C3B091;
     opacity: 0.8;
 }
-.text-box{
+
+.text-box {
     position: absolute;
     text-align: center;
     bottom: 52%;
     left: 26.5%;
 }
-.text-box h1{
+
+.text-box h1 {
     font-family: 'Cardo', serif;
     font-size: 55px;
     color: #313552;
@@ -74,13 +85,15 @@ nav ul li a:hover{
     cursor: pointer;
     text-transform: uppercase;
     position: relative;
-    right: -0.8%;
+    right: 1.5%;
 }
-.text-box h1:hover{
+
+.text-box h1:hover {
     color: #ffffff;
-    transform: scale(1.00) translateY(-15px);
+    transform: scale(1.00) translateY(-5px);
 }
-.btn{ 
+
+.btn {
     border: 1px solid #334756;
     font-size: 1em;
     margin-top: 25px;
@@ -93,27 +106,31 @@ nav ul li a:hover{
     transition: 0.5s;
     color: #fff;
     position: absolute;
-    left: 36%;
-    top: 80%;
+    left: 33.5%;
+    top: 70%;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background: black;
     color: #fff;
     transform: scale(1.00) translateY(12px);
 }
-.cart{
+
+.cart {
     width: 35px;
     position: relative;
     bottom: 5px;
     cursor: pointer;
 }
+
 .social-media {
     position: absolute;
     bottom: 8%;
     left: 9.5%;
 }
-.social-media img{
+
+.social-media img {
     width: 60px;
     display: block;
     cursor: pointer;
@@ -121,14 +138,14 @@ nav ul li a:hover{
     transform: scale(0.8);
     transition: 0.5s;
 }
-.social-media img:hover
-{
-  transform: scale(0.9) translateY(-12px);
+
+.social-media img:hover {
+    transform: scale(0.9) translateY(-12px);
 }
 
 /* ------------------ Section------------------ */
 
-.section-one{
+.section-one {
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -138,16 +155,18 @@ nav ul li a:hover{
     text-align: center;
     cursor: pointer;
 }
-.section-one h5{
+
+.section-one h5 {
     font-family: 'Cardo', serif;
     font-size: 25px;
     color: grey;
     word-spacing: 2px;
     letter-spacing: 2px;
     margin: 15px;
-    cursor:pointer
+    cursor: pointer
 }
-.section-one h1{
+
+.section-one h1 {
     font-family: 'Cardo', serif;
     font-size: 55px;
     font-family: C;
@@ -157,12 +176,14 @@ nav ul li a:hover{
     letter-spacing: 3px;
     word-spacing: 8px;
 }
-.section-one p{
+
+.section-one p {
     font-family: 'Cardo', serif;
     letter-spacing: 0px;
     font-size: 25px;
 }
-.section-one button{
+
+.section-one button {
     border: 5px solid black;
     background-color: #111;
     color: #fff;
@@ -173,29 +194,34 @@ nav ul li a:hover{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    float: center;  
+    float: center;
     cursor: pointer;
 }
-.section-one button:hover{
-   background: #fff;
-   color: #111;
+
+.section-one button:hover {
+    background: #fff;
+    color: #111;
 }
-.furniture{
+
+.furniture {
     padding: 0 10%;
     transform: scale(0.98);
     transition: 0.5s;
     cursor: pointer;
 }
-.furniture:hover{
-  transform: scale(1.00) translateY(-12px);
+
+.furniture:hover {
+    transform: scale(1.00) translateY(-12px);
 }
-#p{
+
+#p {
     letter-spacing: 1px;
     margin-top: 5%;
     font-size: 25px;
     color: #111;
 }
- .btn-two{
+
+.btn-two {
     border: 5px solid black;
     background-color: #111;
     color: #fff;
@@ -206,94 +232,114 @@ nav ul li a:hover{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    float: center;  
+    float: center;
     cursor: pointer;
 }
-.btn-two:hover{
+
+.btn-two:hover {
     background: #fff;
-    color: #111; 
+    color: #111;
 }
+
 /* --------------------Section 2---------------------- */
- .section-two{
+.section-two {
     width: 105%;
     height: 60%;
-} 
-.section-two h6{
+}
+
+.section-two h6 {
     padding: 0 75px 20px 0;
     font-weight: 600;
     font-family: 'Cardo', serif;
 }
-.section-two h1{
-   text-shadow: 200px #111;
-   padding: 0 75px 15px 0;
-   font-weight: 500;
-   font-family: 'Cardo', serif;
+
+.section-two h1 {
+    text-shadow: 200px #111;
+    padding: 0 75px 15px 0;
+    font-weight: 500;
+    font-family: 'Cardo', serif;
 }
-.card-one{
+
+.card-one {
     width: 60%;
 }
-.card-one img{
+
+.card-one img {
     width: 70%;
 }
-.card-one h3{
+
+.card-one h3 {
     margin-top: 59px;
     font-weight: 600;
 }
-.card-one p{
+
+.card-one p {
     word-spacing: 0px;
     letter-spacing: 0px;
     font-size: 20px;
     margin-top: 50px;
 }
-.card-two{
+
+.card-two {
     width: 60%;
 }
-.card-two img{
+
+.card-two img {
     width: 70%;
     margin-top: 12px;
 }
-.card-two h3{
+
+.card-two h3 {
     margin-top: 60px;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
     font-weight: 600;
 }
-.card-two p{
+
+.card-two p {
     font-size: 20px;
     word-spacing: 0px;
     letter-spacing: 0px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.card-three{
+
+.card-three {
     width: 60%;
 }
-.card-three img{
+
+.card-three img {
     width: 70%;
     margin-bottom: 20px;
 }
-.card-three h3{
+
+.card-three h3 {
     margin-top: 38px;
     font-weight: 600;
 }
-.card-three p{
+
+.card-three p {
     word-spacing: 0px;
     letter-spacing: 0px;
     font-size: 20px;
-    letter-spacing: 0px; 
+    letter-spacing: 0px;
     margin-top: 50px;
 }
-.card-four{
+
+.card-four {
     width: 60%;
 }
-.card-four img{
+
+.card-four img {
     width: 77%;
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
 }
-.card-four h3{
+
+.card-four h3 {
     margin-top: 44px;
     font-weight: 600;
 }
-.card-four p{
+
+.card-four p {
     word-spacing: 0px;
     letter-spacing: 0px;
     font-size: 20px;
@@ -301,7 +347,8 @@ nav ul li a:hover{
     margin-top: 50px;
     margin-bottom: -50px;
 }
-#case{
+
+#case {
     border: 5px solid black;
     background-color: #111;
     color: #fff;
@@ -314,11 +361,13 @@ nav ul li a:hover{
     letter-spacing: 2px;
     cursor: pointer;
 }
-#case:hover{
-   background: #fff;
-   color: #111;
+
+#case:hover {
+    background: #fff;
+    color: #111;
 }
-.case-one{
+
+.case-one {
     border: 5px solid black;
     background-color: #111;
     color: #fff;
@@ -331,70 +380,87 @@ nav ul li a:hover{
     letter-spacing: 2px;
     cursor: pointer;
 }
-.case-one:hover{
-   background: #fff;
-   color: #111;
+
+.case-one:hover {
+    background: #fff;
+    color: #111;
 }
-.btn-three{
+
+.btn-three {
     position: absolute;
     right: 40%;
     bottom: -130px;
 }
-.row p{
+
+.row p {
     font-size: 120%;
     color: gray;
 }
-.row h3{
+
+.row h3 {
     transition: 0.5s;
 }
-.row h3:hover{
+
+.row h3:hover {
     color: #F0A500;
 }
 
 /* --------------------Section 3---------------------- */
-.section-three{
+.section-three {
     margin-top: 75px;
 }
-.card-five img{
+
+.card-five img {
     height: 666px;
 }
-.card-six{
+
+.card-six {
     background: #F8F8F8;
 }
-.card-six h6{
+
+.card-six h6 {
     font-family: 'Cardo', serif;
     font-weight: 600;
 }
-.section-four{
+
+.section-four {
     height: 75%;
     margin-top: 75px;
 }
-.form-control{
+
+.form-control {
     background: #fff;
 }
-.card-eight{
+
+.card-eight {
     background-color: #F8F8F8;
 }
-.card-eight label{
+
+.card-eight label {
     font-family: 'Cardo', serif;
     font-size: 15px;
     color: gray;
     display: flex;
     align-items: flex-start;
 }
-.card-seven img{
+
+.card-seven img {
     height: 666px;
 }
-#name{
+
+#name {
     height: 50px;
 }
-#email{
+
+#email {
     height: 50px;
 }
-#message{
+
+#message {
     height: 150px;
 }
-.footer{
+
+.footer {
     width: 50%;
     height: 50%;
     font-size: 20px;
@@ -404,12 +470,14 @@ nav ul li a:hover{
     margin: 30px;
     font-weight: 600;
 }
-.social-links img{
+
+.social-links img {
     height: 33px;
     margin: 20px;
     cursor: pointer;
 }
-span{
-    font-family: 'Cardo' , serif;
+
+span {
+    font-family: 'Cardo', serif;
     font-size: 20px;
 }
